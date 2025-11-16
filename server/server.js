@@ -19,9 +19,10 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const httpServer = createServer(app);
 
-// ✅ Dynamic CORS configuration — allows all Vercel preview URLs
+// ✅ Dynamic CORS configuration – allows GitHub Pages and Vercel preview URLs
 const allowedOrigins = [
   process.env.CLIENT_URL || 'http://localhost:5173',
+  'https://plp-mern-stack-development.github.io',
   'https://real-time-communication-with-socket-one.vercel.app'
 ];
 
@@ -29,10 +30,11 @@ const dynamicOriginCheck = (origin, callback) => {
   // Allow server-to-server or non-browser requests
   if (!origin) return callback(null, true);
 
-  // Allow main site + all Vercel preview deployments
+  // Allow main site + all Vercel preview deployments + GitHub Pages
   if (
     allowedOrigins.includes(origin) ||
-    origin.endsWith('.vercel.app')
+    origin.endsWith('.vercel.app') ||
+    origin.endsWith('.github.io')
   ) {
     console.log('✅ CORS allowed for:', origin);
     callback(null, true);
