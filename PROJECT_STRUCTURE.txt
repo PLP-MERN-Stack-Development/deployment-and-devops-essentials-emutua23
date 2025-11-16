@@ -1,0 +1,53 @@
+./
+|-- client/
+|   |-- public/
+|   |   |-- notification.mp3
+|   |   `-- vite.svg
+|   |-- src/
+|   |   |-- __tests__/
+|   |   |-- assets/
+|   |   |-- components/
+|   |   |-- monitoring/
+|   |   |-- App.css
+|   |   |-- App.jsx
+|   |   |-- index.css
+|   |   |-- main.jsx
+|   |   |-- sentry-client.js
+|   |   `-- socket.js
+|   |-- README.md
+|   |-- eslint.config.js
+|   |-- index.html
+|   |-- package.json
+|   |-- vite.config.js
+|   `-- vitest.config.js
+|-- scripts/
+|-- server/
+|   |-- __tests__/
+|   |   `-- server.test.js
+|   |-- Procfile
+|   |-- jest.config.js
+|   |-- monitoring.js
+|   |-- package.json
+|   |-- railway.json
+|   |-- sentry-config.js
+|   `-- server.js
+|-- DEPLOYMENT_CHECKLIST.md
+|-- DEPLOYMENT_GUIDE.md
+|-- DEVOPS_GUIDE.md
+|-- FEATURES.md
+|-- FILES_CREATED.txt
+|-- FINAL_SUMMARY.md
+|-- IMPLEMENTATION_SUMMARY.md
+|-- MAINTENANCE_PLAN.md
+|-- PROJECT_STRUCTURE.txt
+|-- PROJECT_SUMMARY.md
+|-- QUICKSTART.md
+|-- QUICK_REFERENCE.md
+|-- README.md
+|-- README_DEVOPS.md
+|-- ROLLBACK_PROCEDURES.md
+|-- SETUP_INSTRUCTIONS.md
+|-- Week5-Assignment.md
+`-- deployment.md
+
+10 directories, 40 files
