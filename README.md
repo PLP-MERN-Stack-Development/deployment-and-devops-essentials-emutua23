@@ -1,5 +1,10 @@
 # 💬 Real-Time Chat Application
 
+Front End: https://plp-mern-stack-development.github.io/deployment-and-devops-essentials-emutua23/
+Back End: https://deployment-and-devops-essentials-emutua23-production.up.railway.app/
+
+
+
 A modern, colorful real-time chat application built with Socket.io, React, and Express. Features include multiple chat rooms, private messaging, typing indicators, reactions, and beautiful animations!
 
 ![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
